@@ -17,7 +17,7 @@ const Menu = ({ menuName, menuItems }) => {
   );
 };
 
-Menu.PropTypes = {
+Menu.propTypes = {
   menuName: PropTypes.string.isRequired,
   menuItems: PropTypes.arrayOf(
     PropTypes.shape({
